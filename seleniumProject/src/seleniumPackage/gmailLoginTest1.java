@@ -44,7 +44,7 @@ public class gmailLoginTest1 {
 	    driver.findElement(By.name("username")).sendKeys("divya.tripathi@is.co.za");
 	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='i'])[1]/following::span[1]")).click();
 	    driver.findElement(By.name("password")).clear();
-	    driver.findElement(By.name("password")).sendKeys("Password.5555");
+	    driver.findElement(By.name("password")).sendKeys("Password.8888");
 	    driver.findElement(By.name("password")).click();
 	    driver.findElement(By.name("password")).clear();
 	    driver.findElement(By.name("password")).sendKeys("Password@2");
