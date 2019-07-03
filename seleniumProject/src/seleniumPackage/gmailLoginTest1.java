@@ -25,7 +25,7 @@ public class gmailLoginTest1 {
 			 //driver.get("http://google.com");
 			 driver.manage().window().maximize();
 			 driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;
-			 //String title= driver.getTitle();
+			 String title= driver.getTitle();
 			 //String expected="Demo Form for practicing Selenium Automation";
 			 
 			
