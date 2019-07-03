@@ -25,7 +25,7 @@ public class gmailLoginTest1 {
 			 //driver.get("http://google.com");
 			 driver.manage().window().maximize();
 			 driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;
-			 String title= driver.getTitle();
+			 //String title= driver.getTitle();
 			 //String expected="Demo Form for practicing Selenium Automation";
 			 
 			
@@ -40,11 +40,11 @@ public class gmailLoginTest1 {
 		//driver.findElement(By.name("password")).sendKeys("Password@2");
 		//driver.findElement(By.className("icon-button")).click();
 	    driver.findElement(By.name("username")).click();
-	    driver.findElement(By.name("username")).clear();
+	    //driver.findElement(By.name("username")).clear();
 	    driver.findElement(By.name("username")).sendKeys("divya.tripathi@is.co.za");
 	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='i'])[1]/following::span[1]")).click();
 	    driver.findElement(By.name("password")).clear();
-	    driver.findElement(By.name("password")).sendKeys("Password.66666");
+	    driver.findElement(By.name("password")).sendKeys("Password.5555");
 	    driver.findElement(By.name("password")).click();
 	    driver.findElement(By.name("password")).clear();
 	    driver.findElement(By.name("password")).sendKeys("Password@2");
